@@ -1,0 +1,19 @@
+.Result{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top:25%;
+    left:25%;
+    text-align: center;
+    background-color: blue;
+    opacity: 0.5;
+    /* font-size: 100px; */
+    /* vertical-align: middle; */
+}
+.result_text {
+    /* top: 100px; */
+    /* vertical-align: middle; */
+    font-size: 180px;
+    top: 20%;
+    position: absolute;
+}

@@ -2,4 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  width:100%;
+  height: 100%;
+  position: absolute;
+  /* background-color:#062f4f; */
+  color:#fff;
+  text-shadow: #76b1df;
+}
+#root{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.StartScreen{
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
