@@ -27,9 +27,10 @@ class App extends Component {
     }, 100);
   }
   switchNavbar() {
+    console.log(this);
     console.log(this.state.NavbarWidth)
     if(this.state.NavbarWidth===100) {
-      this.setState({NavbarWidth:200})
+      this.setState({NavbarWidth:0})
     }else this.setState({NavbarWidth:100})
   }
 
@@ -38,7 +39,6 @@ class App extends Component {
     <div className="Container">
       {/* <StartScreen/> */}
       <div 
-        onClick={this.switchNavbar.bind(this)} 
         className="Left"
         style={{
           width:this.state.NavbarWidth
@@ -52,8 +52,15 @@ class App extends Component {
           <div className="Title"><h1>{this.state.title}</h1></div>
           {/* ({this.state.mountNext})?1: */}
                 <Result/>
+                
         </div>
-      </div>
+      </div>  
+      
+      <img
+        className="collapse" 
+        src={require('../images/collapse.png')}
+        onClick={this.switchNavbar.bind(this)}
+      />
     </div>
     );
   }

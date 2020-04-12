@@ -7,7 +7,8 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "0.9.5",
-    "react-step-progress-bar": "^1.0.3"
+    "react-step-progress-bar": "^1.0.3",
+    "react-websocket": "^2.1.0"
   },
   "devDependencies": {
     "file-loader": "^4.2.0",
